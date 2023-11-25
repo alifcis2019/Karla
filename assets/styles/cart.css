@@ -1,0 +1,229 @@
+:root {
+    --main-color:rgb(21,149,224);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    /* height: 1000vh; */
+    font-family: 'Karla', sans-serif;
+    transition: 2s;
+    background-color: white;
+}
+
+/* edit navbar */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.90);
+}
+
+.nav-link:hover {
+    background-color: var(--main-color);
+}
+.nav-link {
+    color: white !important;
+    text-transform: uppercase;
+    font-size: medium;
+    border-radius: 10px;
+    padding: 10px !important;
+    /* font-weight: bold; */
+}
+
+.nav-link:hover {
+    background-color: var(--main-color);
+}
+
+.nav__links {
+    flex-grow: 0 !important;
+}
+
+.nav-item {
+    border-radius: 10%;
+}
+
+
+.shopCategory {
+    cursor: pointer;
+}
+
+
+/* end navbar */
+
+/* Men's Products */
+
+.menProducts__card {
+    transition: 1s;
+}
+.menProducts__card:hover {
+    cursor: pointer;
+}
+.menProducts__card:hover .addToCards{
+    top: 90% !important;
+    width: 80%;
+}
+
+.addToCards i:hover {
+    color: var(--main-color);
+}
+
+.fa-heart:hover {
+    color: red;
+}
+
+
+.cartAlerts {
+    right: 40% !important;
+    top: 4% !important;
+    z-index: 10000 !important;
+}
+
+.swal2-container{
+    padding: 20px !important;
+    margin: auto !important;
+}
+
+.swal2-shown{
+    padding-right: 0 !important;
+}
+
+
+.cartItems__left img {
+    height: 20vh;
+}
+
+.fa-trash {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    font-size: 20px;
+}
+
+.priceValue {
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    width: 50px !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.removeAll {
+    right: 40%;
+    top: 1%;
+    width: 150px;
+}
+
+.cartItems__card {
+    border-radius: 20px;
+    background-color: #ebecf0 !important;
+}
+
+.cartItems__left img {
+    transition: .5s;
+    cursor: pointer;
+    filter: blur(.9);
+}
+
+.cartItems__left img:hover {
+    transform: scale(1.1);
+}
+
+.cartSummary {
+    padding: 10px;
+    height: 80vh;
+    position: fixed;
+    right: 5%;
+    top: 17%;
+    border-radius: 20px;
+    background-color: #ebecf0 !important;
+    box-shadow:  whitesmoke !important;
+}
+
+
+.promoCode {
+    outline: none;
+    border: none;
+}
+
+
+.quantity__totalPrice {
+    width: 12%;
+}
+
+.preload {
+    background: #000 url(../images/preload.gif);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center center;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+}
+
+.applyButton canvas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+
+
+.filterResponsive {
+    top: 80px;
+    right: 2%;
+    visibility: hidden;
+}
+
+@media screen and (max-width: 1000px) {
+    .filterResponsive{
+        visibility: visible !important;
+    }
+    .cartSummary {
+        width: 50%;
+        height: fit-content;
+        position: fixed;
+        right: 7%;
+        z-index: 1000;
+        top: 50px;
+    }
+}
+@media screen and (max-width: 641px) {
+    .filterResponsive{
+        visibility: visible !important;
+    }
+    .cartSummary {
+        /* height: 100vh; */
+        width: 70%;
+        height: fit-content;
+        position: fixed;
+        right: 5%;
+        visibility: hidden;
+        top: 50px;
+    }
+}
+
+.userData {
+    width: 23%;
+    height: fit-content;
+    z-index: 5000;
+    background-color: var(--main-color);
+    position: fixed;
+    top: 90px;
+    right: 100px;
+    border-radius: 10px;
+    visibility: hidden;
+}

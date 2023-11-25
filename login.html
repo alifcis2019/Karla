@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <!-- icon Bar -->
+    <link rel="icon" href="assets/images/register/iconbar.png">
+    <!-- GOOGLE Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500&family=Open+Sans:wght@300;400;500;700;800&family=Raleway:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <!-- bootstrap files -->
+    <link rel="stylesheet" href="assets/styles/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/styles/all.min.css">
+    <!-- sweetAlert -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.32/dist/sweetalert2.min.css">
+    <!-- signup stylesheet -->
+    <link rel="stylesheet" href="assets/styles/login.css">
+</head>
+<body class="bg-primary">
+    <!-- start navBar -->
+    <nav class="navbar sticky-top py-0 pt-2 navbar-expand-lg navbar-light text-white" id="home">
+        <div class="container text-white d-flex justify-content-between align-items-center">
+            <a class="navbar-brand text-white fw-bolder fs-1 fst-italic" href="index.html">KARLA</a>
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <i class="fa-solid fa-bars text-light"></i>
+            </button>
+            <div class="collapse nav__links navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 flex-lg-row d-sm-flex align-items-center flex-column gap-4">
+                    <li class="nav-item mx-1">
+                    <a class="nav-link active" aria-current="page" href="index.html" id="home">Home</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                    <a class="nav-link shopCategory" href="shop.html" id="shop" data-bs-target="shop">Shop</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                    <a class="nav-link" href="about.html">About US</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                    <a class="nav-link" href="index.html#contact us"> Contact US</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a type="button" class="position-relative nav-link navCard rounded-2" href="cart.html">
+                            <i class="fa-solid fa-cart-shopping my-0 fs-3"></i>
+                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                <span class=" cardsNumber">0</span>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="position-relative nav-link  navCard rounded-2" href="wishlist.html" >
+                            <i class="fa-solid fa-heart fs-3  text-light"></i>
+                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                <span class="favouriteNum"></span>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end navBar -->
+
+    <!-- start login form -->
+
+	<section class="container loginForm  mt-5  row align-items-start justify-content-center align-self-center mx-auto">
+        <form style="height: 400px;" class="shadow row justify-content-center align-items-center  gap-3 col-lg-8  rounded-2 py-4 text-light px-0 w-50">
+            <div class="col-sm-8">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-sm-8">
+                <label for="inputPassword4" class="form-label">Password</label>
+                <input type="password" class="form-control" id="inputPassword4">
+            </div>
+            <div class="col-sm-12 mt-3 text-center justify-content-center d-flex gap-4">
+                <a href="register.html" class="text-white  btn btn-primary signUp text-decoration-none">Sign Up</a>
+                <a href="#" class="text-white signIn text-decoration-none btn btn-primary">Sign In</a>
+            </div>
+            <div class="sign-upicons d-flex justify-content-center gap-4 mt-2">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-google"></i>
+            </div>
+        </form>
+        <div class="col-md-4 w-50 position-relative loginImage">
+            <div class="">
+                <img src="assets/images/register/register.jpg" alt="" class="w-100 rounded-2" style="height: 400px;">
+            </div>
+            <div class="image-content">
+                <h3 class="fs-1 fw-bolder w-100 text-uppercase">LOGIN</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- bootstrap js file -->
+    <script src="assets/scripts/bootstrap.bundle.min.js"></script>
+    <!-- signup js file -->
+    <script src="assets/scripts/login.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+</html>

@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KARLA</title>
+    <!-- GOOGLE Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500&family=Open+Sans:wght@300;400;500;700;800&family=Raleway:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <!-- icon bar -->
+    <link rel="icon" href="assets/images/index/icon.png">
+    <!-- bootstrap styles -->
+    <link rel="stylesheet" href="assets/styles/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/styles/all.min.css">
+    <!-- persolnal stylsheet -->
+    <link rel="stylesheet" href="assets/styles/index.css">
+</head>
+<body id="home">
+    <!-- start navBar -->
+    <nav class="navbar sticky-top end-0 p py-0 pt-2 navbar-expand-lg navbar-light text-white" id="home">
+        <div class="container text-white d-flex justify-content-between align-items-center">
+            <a class="navbar-brand text-white fw-bolder fs-1 fst-italic" href="#home">KARLA</a>
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <i class="fa-solid fa-bars text-light"></i>
+            </button>
+            <div class="collapse nav__links navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 flex-lg-row d-sm-flex align-items-center flex-column gap-lg-4 gap-sm-1">
+                    <li class="nav-item mx-1">
+                    <a class="nav-link active" aria-current="page" href="#" id="home">Home</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                    <a class="nav-link shopCategory" href="shop.html" id="shop" data-bs-target="shop">Shop</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                    <a class="nav-link" href="#about us">About US</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                    <a class="nav-link" href="#contact us"> Contact US</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a type="button" class="position-relative nav-link navCard rounded-2" href="cart.html">
+                            <i class="fa-solid fa-cart-shopping my-0 fs-3"></i>
+                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                <span class="cardsNumber">0</span>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="position-relative nav-link  navCard rounded-2" href="wishlist.html" >
+                            <i class="fa-solid fa-heart fs-3  text-light"></i>
+                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                <span class="favouriteNum">0</span>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="nav-item ms-2 me-0 ">
+                        <a class="btn loginButton"><i class="fa-solid fa-user fs-3 text-light "></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end navBar -->
+    <!-- start slider -->
+    <header>
+        <div id="carouselExampleInterval" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="active bg-dark p-1" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1" aria-label="Slide 2" class="bg-dark p-1"></button>
+                <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2" aria-label="Slide 3" class="bg-dark p-1"></button>
+                <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="3" aria-label="Slide 4" class="bg-dark p-1"></button>
+                <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="4" aria-label="Slide 5" class="bg-dark p-1"></button>
+                <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="5" aria-label="Slide 6" class="bg-dark p-1"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="6000">
+                <img src="assets/images/index/slider 1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption carousel-caption__animation d-none d-md-block text-center position-absolute mt-5 typewriter">
+                    <h5 class="text-dark  fs-2 fw-bolder text-capitalize">Karla Is Meaning Of Bauty </h5>
+                    <p class=" text-uppercase fs-4 text-success">Your Best Choice</p>
+                    <a href="shop.html" class="text-white text-decoration-none fs-5 btn btn-primary" role="button">SHOP NOW</a>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="assets/images/index/slider 2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block typewriter">
+                    <h5 class="fs-2 fw-bolder  my-5 text-light"> WINTER SALE</h5>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="assets/images/index/slider 3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block typewriter">
+                    <h5 class="my-5  text-uppercase">Comfort Delivery Service</h5>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="assets/images/index/slider 4.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block typewriter">
+                    <h5 class="my-5 fs-4 fw-bold text-white ">All Fashion Models</h5>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="assets/images/index/slider 5.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block typewriter">
+                    <h5 class="my-5 shadow"> For Comfort Shoes</h5>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="assets/images/index/slider 6.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block typewriter">
+                    <h5 class="fs-4 my-5 ">Thanks to be HERE</h5>
+                </div>
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+        </div>
+    </header>
+    <!-- end slider -->
+    <!-- Shop by category -->
+    <section class="mt-2 hidden">
+        <div class="container">
+            <div class="shopByCategory col">
+                <div class="shopByCategory__title text-center">
+                    <h3 class="text-dark text-uppercase fw-bold my-4">Shop By Category</h3>
+                </div>
+                <div class="shopByCategory__items">
+                    <div class="row gap-2">
+                        <div class="shopByCategory__items__card p-0 col-sm-7 col-lg-3 p-sm-2 w-100  rounded-2  d-flex flex-column justify-content-between align-items-center gap-2" id="men's clothing">
+                            <div class="shopByCategory__items__card__img">
+                                <img src="assets/data/images/men/5/1.jpg    " alt="" class="w-100 h-100">
+                            </div>
+                            <div class="shopByCategory__items__card__descreption d-flex align-items-center flex-column">
+                                <h3>MEN</h3>
+                                <a class="btn btn-primary text-center p-2 text-uppercase shopCategory" data-bs-target="men">Shop Now</a>
+                            </div>
+                        </div>
+                        <div class="shopByCategory__items__card p-0 col-sm-12 col-lg-3 p-sm-2 w-100  rounded-2  d-flex flex-column justify-content-between align-items-center gap-2" id="women's clothing">
+                            <div class="shopByCategory__items__card__img">
+                                <img src="assets/images/index/women.jpg" alt="" class="w-100 h-100">
+                            </div>
+                            <div class="shopByCategory__items__card__descreption d-flex align-items-center flex-column">
+                                <h3>WOMEN</h3>
+                                <a class="btn btn-primary text-center text-uppercase p-2 shopCategory" data-bs-target="women">Shop Now</a>
+                            </div>
+                        </div>
+                        <div class="shopByCategory__items__card p-0 col-sm-12 col-lg-3 p-sm-2 w-100  rounded-2  d-flex flex-column justify-content-between align-items-center gap-2" id="jewelery">
+                            <div class="shopByCategory__items__card__img">
+                                <img src="assets/images/index/kids.jpg" alt="" class="w-100 h-100">
+                            </div>
+                            <div class="shopByCategory__items__card__descreption d-flex align-items-center flex-column">
+                                <h3 class="">KIDS</h3>
+                                <a class="btn btn-primary w-100 text-center text-uppercase  p-2 shopCategory" data-bs-target="kids">shop now</a>
+                            </div>
+                        </div>
+                        <div class="shopByCategory__items__card p-0 col-sm-12 col-lg-3 p-sm-2 w-100  rounded-2  d-flex flex-column justify-content-between align-items-center gap-2"id="electronics">
+                            <div class="shopByCategory__items__card__img">
+                                <img src="assets/images/index/accessories.webp" alt="" class="w-100 h-100">
+                            </div>
+                            <div class="shopByCategory__items__card__descreption d-flex align-items-center flex-column">
+                                <h3>ACCESSORIES</h3>
+                                <a  class="btn btn-primary text-center text-uppercase p-2 shopCategory" data-bs-target="accessories">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mt-2 py-5 " id="about us">
+        <div class="container ourStory  p-4" >
+            <div class="ourStory__block  d-flex gap-4 flex-column justify-content-between align-items-center typewriter">
+                <h2 class="text-center mx-auto text-uppercase">A Greater Everyday</h2>
+                <p class="text-center mx-auto">We are committed to providing you with an elevated experience that goes beyond just clothing. Leveraging our family's 125-year legacy in textiles, we have developed a brand dedicated to producing clothing that embodies the perfect blend of comfort, style, and quality. Each item we create is expertly crafted to ensure it fits you like a glove, making you look and feel your best. We are committed to providing you with an elevated experience that goes beyond just clothing, to A Greater Everyday.</p>
+                <a href="about.html" class="btn btn-primary">OUR STORY</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- delivery -->
+    <section>
+        <div class="  mt-3 mb-5 overflow-hidden">
+            <div class="delivery d-flex align-items-center justify-content-between  flex-lg-row flex-column-reverse ms-4">
+                <div class="deliveryLeft ms-5 px-5">
+                    <h3 class="text-primary fw-bold text-uppercase ">Delivery</h3>
+                    <h5 class="fw-bold w-75">Choose what you want, select a pick up time</h5>
+                    <p class="text-secondary w-75">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta architecto deleniti, debitis id corrupti eos nobis laudantium quidem non ipsam!</p>
+                    <a class="btn btn-primary" href="shop.html">Order Now</a>
+                </div>
+                <div class="deliveryRight w-50">
+                    <img src="assets/images/index/delivery.png" alt="" class="w-100">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contactMe p-3 hidden" id="contact us">
+        <div class="container">
+            <div class="contact mt-5" id="contact">
+                <div class="part1">
+                    <h2 class="mx-auto text-center fs-1 fw-bold">Contact Us</h2>
+                </div>
+                <div class="part2 p-5">
+                    <p class="text-center m-auto fs-4">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                </div>
+                <div class="part3 shadow p-2 rounded-2 row justify-content-around align-items-center">
+                    <div class="map  rounded-2  col-lg-5">
+                        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12096.251144938686!2d-73.99509065284506!3d40.71663430612768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2598015ac8beb%3A0x59b849fea56b6a70!2sLower%20East%20Side%2C%20New%20York%2C%20NY!5e0!3m2!1sen!2sus!4v1690593061087!5m2!1sen!2sus" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="rounded-2">Map</iframe> -->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.843418739848!2d31.211906925609753!3d30.041349718719438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1458472e6975bdc7%3A0xc8e7067e081db02!2sEraaSoft!5e0!3m2!1sar!2seg!4v1699622684019!5m2!1sar!2seg"  width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="rounded-2">map</iframe>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="form-floating mb-3 mx-auto w-50 text-center">
+                            <input type="text" class="form-control" id="floatingInput1" placeholder="Name">
+                            <label for="floatingInput1">Name</label>
+                        </div>
+                        <div class="form-floating mb-3 mx-auto w-50 text-center">
+                            <input type="email" class="form-control" id="floatingInput2" placeholder="example@em.com">
+                            <label for="floatingInput2">Email</label>
+                        </div>
+                        <div class="form-floating mx-auto w-50 text-center">
+                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                            <label for="floatingTextarea2">Comments</label>
+                        </div>
+                        <div class="form-floating mx-auto w-25  text-center">
+                            <button class="btn btn-primary mt-3 mx-auto text-center w-50">Send</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="p-md-5 p-sm-0 rounded-2 hidden" style="background-color: rgb(238,230,53);">
+        <div class="container signUp d-flex flex-column gap-3 justify-content-center align-items-center p-3">
+            <h4 class="my-0 py-0 fw-bolder">BECOME A MEMBER IN KARLA</h4>
+            <a href="register.html" class="btn btn-primary">SIGN UP NOW</a>
+        </div>
+    </section>
+
+    <!-- start footer -->
+    <footer class="p-4" style="background-color: black;">
+        <hr class="text-white mt-5">
+        <div class="container p-3 d-flex flex-md-row  justify-content-around align-items-start">
+            <div class="followUs footer__item">
+                <h5>FOLLOW US</h5>
+                <div class="d-flex justify-content-between align-items-center gap-3">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="followUs footer__item">
+                <h5>CATEGORY</h5>
+                <a class="text-white text-decoration-none" href="men.html">Men</a>
+                <a class="text-white text-decoration-none" href="women.html">Women</a>
+                <a class="text-white text-decoration-none" href="kids.html">Kids</a>
+                <a class="text-white text-decoration-none" href="accessories.html">Accessories</a>
+            </div>
+            <div class="followUs footer__item">
+                <h5>SUPPORT</h5>
+                <a class="text-white text-decoration-none" href="">help</a>
+                <a class="text-white text-decoration-none" href="">returns</a>
+                <a class="text-white text-decoration-none" href="">voucher</a>
+                <a class="text-white text-decoration-none" href="">accessibility</a>
+            </div>
+        </div>
+        <p class="text-white text-center mt-3">All Right Reserved &copy;2023 Ali Talaat</p>
+    </footer>
+
+    <!-- show User Data -->
+    <div class="userData py-4 px-5  d-flex flex-column gap-3 justify-content-between align-items-start">
+        
+    </div>
+    <!-- end footer -->
+    <!-- bootstrap js file -->
+    <script src="assets/scripts/bootstrap.bundle.min.js"></script>
+    <!-- personal js file -->
+    <script src="assets/scripts/index.js"></script>
+</body>
+</html>

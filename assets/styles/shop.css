@@ -1,0 +1,345 @@
+:root {
+    --main-color:rgb(21,149,224);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    /* height: 1000vh; */
+    font-family: 'Karla', sans-serif;
+    transition: 2s;
+}
+
+/* edit navbar */
+.nav-link {
+    color: white !important;
+    text-transform: uppercase;
+    font-size: medium;
+    border-radius: 10px;
+    padding: 10px !important;
+    /* font-weight: bold; */
+}
+
+.nav-link:hover {
+    background-color: black;
+}
+
+.nav__links {
+    flex-grow: 0 !important;
+}
+
+.nav-item {
+    border-radius: 10%;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.90);
+}
+
+.nav-link:hover {
+    background-color: var(--main-color);
+}
+
+
+.shopCategory {
+    cursor: pointer;
+}
+
+
+/* end navbar */
+
+/* Men's Products */
+
+.menProducts__filter {
+    padding: 2%;
+    border-radius: 20px;
+    height: 80vh;
+    position: fixed;
+    margin-top: 20px;
+    right: 2%;
+    box-shadow:100 whitesmoke !important;
+    
+}
+
+.menProducts__filter .checkbox {
+    margin-inline: 15px;
+}
+
+.menProducts__filter__card {
+    /* border-bottom: 2px solid gray; */
+    width: 100%;
+    margin-block: 20px !important;
+}
+
+
+.menProducts__card {
+    transition: .5s;
+    padding: 2% !important;
+    transition: .5s;
+}
+
+.menProducts__card img {
+    border-radius: 10px !important;
+    /* height: max-content !important; */
+}
+.menProducts__card:hover {
+    cursor: pointer;
+}
+.menProducts__card__price {
+    top: 25%;
+}
+
+/* .addToCards:hover {
+    color: var(--main-color);
+    filter: brightness(1);
+} */
+
+.cartAlerts {
+    right: 40% !important;
+    top: 4% !important;
+    z-index: 10000 !important;
+}
+
+.swal2-container{
+    padding: 20px !important;
+    margin: auto !important;
+}
+
+.swal2-shown{
+    padding-right: 0 !important;
+}
+
+
+
+/* on hover show eye icon */
+.itemContainer {
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.favouritAndView{
+    visibility: hidden;
+    position: absolute;
+    justify-content: center !important;
+    top: 0%;
+    right: 0%;
+    transition: .2s;
+    /* background-color: rgba(0, 0, 0,.7); */
+    padding: 3%;
+    border-radius: 10px;
+    filter: brightness(.5);
+    transition: .1s;
+}
+
+.fa-cart-plus:hover {
+    color: var(--main-color) !important;
+}
+
+.menProducts__card:hover .favouritAndView {
+    visibility: visible;
+    top: 5%;
+    right: 5%;
+    filter: brightness(1);
+}
+
+.fa-eye:hover {
+    color: var(--main-color);
+}
+
+.fa-heart:hover {
+    color: red;
+}
+
+.fa-heart , 
+.fa-eye {
+    color: white;
+    font-size: 30px !important;
+}
+
+.menProducts__card:hover img{
+    filter: brightness(.5) !important;
+}
+
+.menProducts__card img{
+    filter: brightness(.9);
+}
+
+.menProducts__card__price {
+    z-index: 999;
+}
+
+#preload {
+    background: #000 url(../images/preload.gif);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center center;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 2000;
+}
+
+/* start footer */
+.footer__item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer__item i , .footer__item h5,.footer__item a {
+    color: white;
+    transition: .5s;
+}
+
+.footer__item i {
+    font-size: 1.3rem;
+}
+
+.footer__item i:hover,
+.footer__item a:hover {
+    color: var(--main-color) !important;
+}
+
+@media screen and (max-width: 490px) {
+    .followUs{
+        display: none;
+    }
+}
+
+
+/* filter responsive */
+.filterResponsive {
+    top: 80px;
+    right: 0%;
+    visibility: hidden;
+    position: fixed !important;
+}
+
+
+
+@media screen and (max-width: 991px) {
+    .filterResponsive{
+        visibility: visible !important;
+        position: fixed;
+        right: 0%;
+
+    }
+    .menProducts__filter {
+        width: 50%;
+        position: absolute;
+        right: 10%;
+        visibility: hidden;
+        top:350px;
+        z-index: 1000;
+    }
+    .menProducts__block__item__title {
+        display: none;
+    }
+
+    .menProducts__block {
+        margin-top: 0%;
+        padding-top: 0% !important;
+    }
+}
+@media screen and (max-width: 641px) {
+    .filterResponsive{
+        visibility: visible !important;
+        position: fixed;
+    }
+    .menProducts__filter {
+        width:70%;
+        position: fixed;
+        right: 11%;
+        visibility: hidden;
+        top: 65px;
+    }
+    .menProducts__block__item__title {
+        display: none;
+    }
+
+    .menProducts__block {
+        margin-top: 15%;
+    }
+}
+
+.search {
+    position: absolute;
+    top: 30px;
+    right: 70%;
+    z-index: 2000;
+}
+
+.search i {
+    color: white;
+}
+
+
+.searchBar {
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 10vh;
+    width: 50%;
+    background-color: black;
+    z-index: 20001;
+    position: fixed;
+    right: 30rem;
+    top: -50%;
+    padding-inline: 20px;
+    margin: auto;
+}
+.searchBarBlock {
+    width: 90%;
+    height: 8vh;
+    background-color: black;
+    z-index: 2000;
+}
+
+
+
+/* wishlist block */
+.wishlist {
+    width: 35%;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 90px;
+    z-index: 2500;
+    right: 5%;
+}
+
+.wishlist img {
+    height: 100px;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+.wishlist i {
+    cursor: pointer;
+}
+
+
+.userData {
+    width: 23%;
+    height: fit-content;
+    z-index: 5000;
+    background-color: var(--main-color);
+    position: fixed;
+    top: 90px;
+    right: 100px;
+    border-radius: 10px;
+    visibility: hidden;
+}
+

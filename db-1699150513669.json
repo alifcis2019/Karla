@@ -1,0 +1,840 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "shirt",
+      "price": 109.95,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "category": "men's clothing",
+      "size": "s",
+      "image": "/assets/data/images/men/1/1.webp",
+      "rating": {
+        "rate": 4.9,
+        "count": 120
+      },
+      "images": [
+        "/assets/data/images/men/1/1.webp",
+        "/assets/data/images/men/1/2.webp",
+        "/assets/data/images/men/1/3.webp",
+        "/assets/data/images/men/1/4.webp"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "jacket",
+      "price": 150,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "category": "men's clothing",
+      "size": "m",
+      "image": "/assets/data/images/men/2/1.jpg",
+      "rating": {
+        "rate": 4,
+        "count": 120
+      },
+      "images": [
+        "/assets/data/images/men/2/1.jpg",
+        "/assets/data/images/men/2/2.webp",
+        "/assets/data/images/men/2/3.webp",
+        "/assets/data/images/men/2/4.webp"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "jacket",
+      "price": 100,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "category": "men's clothing",
+      "size": "l",
+      "image": "/assets/data/images/men/3/1.webp",
+      "rating": {
+        "rate": 3.5,
+        "count": 120
+      },
+      "images": [
+        "/assets/data/images/men/3/1.webp",
+        "/assets/data/images/men/3/2.jpg",
+        "/assets/data/images/men/3/3.webp",
+        "/assets/data/images/men/3/4.webp"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "jacket",
+      "price": 200,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "category": "men's clothing",
+      "size": "m",
+      "image": "/assets/data/images/men/4/1.jpg",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      },
+      "images": [
+        "/assets/data/images/men/4/1.jpg",
+        "/assets/data/images/men/4/2.webp",
+        "/assets/data/images/men/4/3.webp",
+        "/assets/data/images/men/4/4.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "POLO",
+      "price": 250,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "category": "men's clothing",
+      "size": "s",
+      "image": "/assets/data/images/men/5/1.jpg",
+      "rating": {
+        "rate": 4.5,
+        "count": 120
+      },
+      "images": [
+        "/assets/data/images/men/5/1.jpg",
+        "/assets/data/images/men/5/2.webp",
+        "/assets/data/images/men/5/3.jpg",
+        "/assets/data/images/men/5/4.webp"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "trouser",
+      "price": 109,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "category": "men's clothing",
+      "size": "l",
+      "image": "./assets/data/images/men/6/1.webp",
+      "rating": {
+        "rate": 4.2,
+        "count": 120
+      },
+      "images": [
+        "/assets/data/images/men/6/1.webp",
+        "/assets/data/images/men/6/2.webp",
+        "/assets/data/images/men/6/3.webp",
+        "/assets/data/images/men/6/4.webp"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "jacket",
+      "price": 190,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "category": "men's clothing",
+      "size": "m",
+      "image": "/assets/data/images/men/7/1.jpg",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      },
+      "images": [
+        "/assets/data/images/men/7/1.jpg",
+        "/assets/data/images/men/7/2.jpg",
+        "/assets/data/images/men/7/3.webp",
+        "/assets/data/images/men/7/4.jpg"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "POLO",
+      "price": 180,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "category": "men's clothing",
+      "size": "s",
+      "image": "/assets/data/images/men/8/1.jpg",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      },
+      "images": [
+        "/assets/data/images/men/8/1.jpg",
+        "/assets/data/images/men/8/2.webp",
+        "/assets/data/images/men/8/3.webp",
+        "/assets/data/images/men/8/4.webp"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "t-shirt",
+      "price": 99,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "category": "men's clothing",
+      "size": "m",
+      "image": "/assets/data/images/men/9/1.jpg",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      },
+      "images": [
+        "/assets/data/images/men/9/1.jpg",
+        "/assets/data/images/men/9/2.webp",
+        "/assets/data/images/men/9/3.webp",
+        "/assets/data/images/men/9/4.webp"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "shirt",
+      "price": 199.9,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "category": "men's clothing",
+      "size": "m",
+      "image": "/assets/data/images/men/10/1.webp",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      },
+      "images": [
+        "/assets/data/images/men/10/1.webp",
+        "/assets/data/images/men/10/2.webp",
+        "/assets/data/images/men/10/3.webp",
+        "/assets/data/images/men/10/4.webp"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "trouser",
+      "price": 150,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "category": "men's clothing",
+      "size": "l",
+      "image": "/assets/data/images/men/11/1.webp",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      },
+      "images": [
+        "/assets/data/images/men/11/1.webp",
+        "/assets/data/images/men/11/2.jpg",
+        "/assets/data/images/men/11/3.webp",
+        "/assets/data/images/men/11/4.jpg"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "POLO",
+      "price": 299.9,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "category": "men's clothing",
+      "size": "m",
+      "image": "/assets/data/images/men/12/1.webp",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      },
+      "images": [
+        "/assets/data/images/men/12/1.webp",
+        "/assets/data/images/men/12/2.webp",
+        "/assets/data/images/men/12/3.webp",
+        "/assets/data/images/men/12/4.webp"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "jacket",
+      "price": 299.9,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "category": "women's clothing",
+      "size": "m",
+      "image": "/assets/data/images/women/1/1.jpg",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      },
+      "images": [
+        "/assets/data/images/women/1/1.jpg",
+        "/assets/data/images/women/1/2.jpg",
+        "/assets/data/images/women/1/3.jpg",
+        "/assets/data/images/women/1/4.jpg"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "jacket",
+      "price": 250,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "category": "women's clothing",
+      "size": "s",
+      "image": "/assets/data/images/women/2/1.jpg",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      },
+      "images": [
+        "/assets/data/images/women/2/1.jpg",
+        "/assets/data/images/women/2/2.jpg",
+        "/assets/data/images/women/2/3.jpg",
+        "/assets/data/images/women/2/4.jpg"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "jacket",
+      "price": 350,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "category": "women's clothing",
+      "size": "l",
+      "image": "/assets/data/images/women/3/1.jpg",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      },
+      "images": [
+        "/assets/data/images/women/3/1.jpg",
+        "/assets/data/images/women/3/2.jpg",
+        "/assets/data/images/women/3/3.jpg",
+        "/assets/data/images/women/3/4.jpg"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "POLO",
+      "price": 199,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "category": "women's clothing",
+      "size": "s",
+      "image": "/assets/data/images/women/4/1.jpg",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      },
+      "images": [
+        "/assets/data/images/women/4/1.jpg",
+        "/assets/data/images/women/4/2.jpg",
+        "/assets/data/images/women/4/3.jpg",
+        "/assets/data/images/women/4/4.jpg"
+      ]
+    },
+    {
+      "id": 17,
+      "title": "trouser",
+      "price": 210,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "category": "women's clothing",
+      "size": "m",
+      "image": "/assets/data/images/women/5/1.webp",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      },
+      "images": [
+        "/assets/data/images/women/5/1.webp",
+        "/assets/data/images/women/5/2.webp",
+        "/assets/data/images/women/5/3.webp",
+        "/assets/data/images/women/5/4.webp"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "jacket",
+      "price": 299.9,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "category": "kids clothing",
+      "size": "s",
+      "image": "/assets/data/images/kids/1/1.webp",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      },
+      "images": [
+        "/assets/data/images/kids/1/1.webp",
+        "/assets/data/images/kids/1/1.webp",
+        "/assets/data/images/kids/1/1.webp",
+        "/assets/data/images/kids/1/1.webp"
+      ]
+    },
+    {
+      "id": 19,
+      "title": "jacket",
+      "price": 299.9,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "category": "kids clothing",
+      "size": "s",
+      "image": "/assets/data/images/kids/2/2.webp",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      },
+      "images": [
+        "/assets/data/images/kids/2/2.webp",
+        "/assets/data/images/kids/2/2.webp",
+        "/assets/data/images/kids/2/2.webp",
+        "/assets/data/images/kids/2/2.webp"
+      ]
+    },
+    {
+      "id": 20,
+      "title": "trouser",
+      "price": 200,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "category": "kids clothing",
+      "size": "s",
+      "image": "/assets/data/images/kids/3/3.webp",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      },
+      "images": [
+        "/assets/data/images/kids/3/3.webp",
+        "/assets/data/images/kids/3/3.webp",
+        "/assets/data/images/kids/3/3.webp",
+        "/assets/data/images/kids/3/3.webp"
+      ]
+    },
+    {
+      "id": 21,
+      "title": "t-shirt",
+      "price": 150,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "category": "kids clothing",
+      "size": "s",
+      "image": "/assets/data/images/kids/4/4.webp",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      },
+      "images": [
+        "/assets/data/images/kids/4/4.webp",
+        "/assets/data/images/kids/4/4.webp",
+        "/assets/data/images/kids/4/4.webp",
+        "/assets/data/images/kids/4/4.webp"
+      ]
+    },
+    {
+      "id": 22,
+      "title": "t-shirt",
+      "price": 350,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "category": "kids clothing",
+      "size": "s",
+      "image": "/assets/data/images/kids/5/5.webp",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      },
+      "images": [
+        "/assets/data/images/kids/5/5.webp",
+        "/assets/data/images/kids/5/5.webp",
+        "/assets/data/images/kids/5/5.webp",
+        "/assets/data/images/kids/5/5.webp"
+      ]
+    },
+    {
+      "id": 23,
+      "title": "t-shirt",
+      "price": 299.9,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "category": "kids clothing",
+      "size": "s",
+      "image": "/assets/data/images/kids/6/6.webp",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      },
+      "images": [
+        "/assets/data/images/kids/6/6.webp",
+        "/assets/data/images/kids/6/6.webp",
+        "/assets/data/images/kids/6/6.webp",
+        "/assets/data/images/kids/6/6.webp"
+      ]
+    },
+    {
+      "id": 24,
+      "title": "shirt",
+      "price": 270,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "category": "kids clothing",
+      "size": "s",
+      "image": "/assets/data/images/kids/7/7.webp",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      },
+      "images": [
+        "/assets/data/images/kids/7/7.webp",
+        "/assets/data/images/kids/7/7.webp",
+        "/assets/data/images/kids/7/7.webp",
+        "/assets/data/images/kids/7/7.webp"
+      ]
+    },
+    {
+      "id": 25,
+      "title": "shirt",
+      "price": 299.9,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "category": "kids clothing",
+      "size": "s",
+      "image": "/assets/data/images/kids/8/8.webp",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      },
+      "images": [
+        "/assets/data/images/kids/8/8.webp",
+        "/assets/data/images/kids/8/8.webp",
+        "/assets/data/images/kids/8/8.webp",
+        "/assets/data/images/kids/8/8.webp"
+      ]
+    },
+    {
+      "id": 26,
+      "title": "shirt",
+      "price": 210,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "category": "women's clothing",
+      "size": "s",
+      "image": "/assets/data/images/women/6/1.jpg",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      },
+      "images": [
+        "/assets/data/images/women/6/1.jpg",
+        "/assets/data/images/women/6/2.jpg",
+        "/assets/data/images/women/6/3.jpg",
+        "/assets/data/images/women/6/4.jpg"
+      ]
+    },
+    {
+      "id": 27,
+      "title": "shirt",
+      "price": 210,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "category": "women's clothing",
+      "size": "m",
+      "image": "/assets/data/images/women/7/1.webp",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      },
+      "images": [
+        "/assets/data/images/women/7/1.webp",
+        "/assets/data/images/women/7/2.webp",
+        "/assets/data/images/women/7/3.webp",
+        "/assets/data/images/women/7/4.webp"
+      ]
+    },
+    {
+      "id": 28,
+      "title": "shirt",
+      "price": 280,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "category": "women's clothing",
+      "size": "l",
+      "image": "/assets/data/images/women/8/1.webp",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      },
+      "images": [
+        "/assets/data/images/women/8/1.webp",
+        "/assets/data/images/women/8/2.webp",
+        "/assets/data/images/women/8/3.webp",
+        "/assets/data/images/women/8/4.webp"
+      ]
+    },
+    {
+      "id": 29,
+      "title": "shirt",
+      "price": 200,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "category": "women's clothing",
+      "size": "m",
+      "image": "/assets/data/images/women/9/1.webp",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      },
+      "images": [
+        "/assets/data/images/women/9/1.webp",
+        "/assets/data/images/women/9/2.webp",
+        "/assets/data/images/women/9/3.webp",
+        "/assets/data/images/women/9/4.webp"
+      ]
+    },
+    {
+      "id": 30,
+      "title": "accessories",
+      "price": 150,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "category": "accessories",
+      "size": "s",
+      "image": "/assets/data/images/accessories/1/1.webp",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      },
+      "images": [
+        "/assets/data/images/accessories/1/1.webp",
+        "/assets/data/images/accessories/1/1.webp",
+        "/assets/data/images/accessories/1/1.webp",
+        "/assets/data/images/accessories/1/1.webp"
+      ]
+    },
+    {
+      "id": 31,
+      "title": "accessories",
+      "price": 140,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "category": "accessories",
+      "size": "m",
+      "image": "/assets/data/images/accessories/2/2.webp",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      },
+      "images": [
+        "/assets/data/images/accessories/2/2.webp",
+        "/assets/data/images/accessories/2/2.webp",
+        "/assets/data/images/accessories/2/2.webp",
+        "/assets/data/images/accessories/2/2.webp"
+      ]
+    },
+    {
+      "id": 32,
+      "title": "accessories",
+      "price": 160,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "category": "accessories",
+      "size": "l",
+      "image": "/assets/data/images/accessories/3/3.webp",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      },
+      "images": [
+        "/assets/data/images/accessories/3/3.webp",
+        "/assets/data/images/accessories/3/3.webp",
+        "/assets/data/images/accessories/3/3.webp",
+        "/assets/data/images/accessories/3/3.webp"
+      ]
+    },
+    {
+      "id": 33,
+      "title": "accessories",
+      "price": 170,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "category": "accessories",
+      "size": "s",
+      "image": "/assets/data/images/accessories/4/4.webp",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      },
+      "images": [
+        "/assets/data/images/accessories/4/4.webp",
+        "/assets/data/images/accessories/4/4.webp",
+        "/assets/data/images/accessories/4/4.webp",
+        "/assets/data/images/accessories/4/4.webp"
+      ]
+    },
+    {
+      "id": 34,
+      "title": "accessories",
+      "price": 180,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "category": "accessories",
+      "size": "m",
+      "image": "/assets/data/images/accessories/5/5.webp",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      },
+      "images": [
+        "/assets/data/images/accessories/5/5.webp",
+        "/assets/data/images/accessories/5/5.webp",
+        "/assets/data/images/accessories/5/5.webp",
+        "/assets/data/images/accessories/5/5.webp"
+      ]
+    },
+    {
+      "id": 35,
+      "title": "accessories",
+      "price": 199,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "category": "accessories",
+      "size": "l",
+      "image": "/assets/data/images/accessories/6/6.webp",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      },
+      "images": [
+        "/assets/data/images/accessories/6/6.webp",
+        "/assets/data/images/accessories/6/6.webp",
+        "/assets/data/images/accessories/6/6.webp",
+        "/assets/data/images/accessories/6/6.webp"
+      ]
+    },
+    {
+      "id": 36,
+      "title": "accessories",
+      "price": 220,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "category": "accessories",
+      "size": "s",
+      "image": "/assets/data/images/accessories/7/7.webp",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      },
+      "images": [
+        "/assets/data/images/accessories/7/7.webp",
+        "/assets/data/images/accessories/7/7.webp",
+        "/assets/data/images/accessories/7/7.webp",
+        "/assets/data/images/accessories/7/7.webp"
+      ]
+    },
+    {
+      "id": 37,
+      "title": "accessories",
+      "price": 230,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "category": "accessories",
+      "size": "s",
+      "image": "/assets/data/images/accessories/8/8.webp",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      },
+      "images": [
+        "/assets/data/images/accessories/8/8.webp",
+        "/assets/data/images/accessories/8/8.webp",
+        "/assets/data/images/accessories/8/8.webp",
+        "/assets/data/images/accessories/8/8.webp"
+      ]
+    },
+    {
+      "id": 38,
+      "title": "accessories",
+      "price": 250,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "category": "accessories",
+      "size": "m",
+      "image": "/assets/data/images/accessories/9/9.webp",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      },
+      "images": [
+        "/assets/data/images/accessories/9/9.webp",
+        "/assets/data/images/accessories/9/9.webp",
+        "/assets/data/images/accessories/9/9.webp",
+        "/assets/data/images/accessories/9/9.webp"
+      ]
+    },
+    {
+      "id": 39,
+      "title": "accessories",
+      "price": 200,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "category": "accessories",
+      "size": "s",
+      "image": "/assets/data/images/accessories/10/10.webp",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      },
+      "images": [
+        "/assets/data/images/accessories/10/10.webp",
+        "/assets/data/images/accessories/10/10.webp",
+        "/assets/data/images/accessories/10/10.webp",
+        "/assets/data/images/accessories/10/10.webp"
+      ]
+    },
+    {
+      "id": 40,
+      "title": "accessories",
+      "price": 290,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "category": "accessories",
+      "size": "m",
+      "image": "/assets/data/images/accessories/11/11.webp",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      },
+      "images": [
+        "/assets/data/images/accessories/11/11.webp",
+        "/assets/data/images/accessories/11/11.webp",
+        "/assets/data/images/accessories/11/11.webp",
+        "/assets/data/images/accessories/11/11.webp"
+      ]
+    },
+    {
+      "id": 41,
+      "title": "accessories",
+      "price": 300,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "category": "accessories",
+      "size": "m",
+      "image": "/assets/data/images/accessories/12/12.webp",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      },
+      "images": [
+        "/assets/data/images/accessories/12/12.webp",
+        "/assets/data/images/accessories/12/12.webp",
+        "/assets/data/images/accessories/12/12.webp",
+        "/assets/data/images/accessories/12/12.webp"
+      ]
+    },
+    {
+      "id": 42,
+      "title": "accessories",
+      "price": 350,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "category": "accessories",
+      "size": "m",
+      "image": "/assets/data/images/accessories/13/13.webp",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      },
+      "images": [
+        "/assets/data/images/accessories/13/13.webp",
+        "/assets/data/images/accessories/13/13.webp",
+        "/assets/data/images/accessories/13/13.webp",
+        "/assets/data/images/accessories/13/13.webp"
+      ]
+    },
+    {
+      "id": 43,
+      "title": "accessories",
+      "price": 300,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "category": "accessories",
+      "size": "m",
+      "image": "/assets/data/images/accessories/14/14.webp",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      },
+      "images": [
+        "/assets/data/images/accessories/14/14.webp",
+        "/assets/data/images/accessories/14/14.webp",
+        "/assets/data/images/accessories/14/14.webp",
+        "/assets/data/images/accessories/14/14.webp"
+      ]
+    },
+    {
+      "id": 44,
+      "title": "accessories",
+      "price": 399,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "category": "accessories",
+      "size": "l",
+      "image": "/assets/data/images/accessories/15/15.webp",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      },
+      "images": [
+        "/assets/data/images/accessories/15/15.webp",
+        "/assets/data/images/accessories/15/15.webp",
+        "/assets/data/images/accessories/15/15.webp",
+        "/assets/data/images/accessories/15/15.webp"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Items</title>
+    <!-- GOOGLE Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500&family=Open+Sans:wght@300;400;500;700;800&family=Raleway:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <!-- sweet alert -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.32/dist/sweetalert2.min.css">
+    <!-- icon bar -->
+    <link rel="icon" href="assets/images/index/icon.png">
+    <!-- bootstrap styles -->
+    <link rel="stylesheet" href="assets/styles/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/styles/all.min.css">
+    <!-- persolnal stylsheet -->
+    <link rel="stylesheet" href="assets/styles/cart.css">   
+</head>
+<body class="position-relative">
+    <div class="preload">
+        
+    </div>
+    <!-- start navBar -->
+    <nav class="navbar sticky-top py-0 pt-2 navbar-expand-lg navbar-light text-white" id="home">
+        <div class="container text-white d-flex justify-content-between align-items-center">
+            <a class="navbar-brand text-white fw-bolder fs-1 fst-italic" href="index.html">KARLA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars text-light"></i>
+            </button>
+            <div class="collapse nav__links navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 flex-lg-row d-sm-flex align-items-center flex-column gap-lg-4 gap-sm-1">
+                    <li class="nav-item mx-1">
+                    <a class="nav-link active" aria-current="page" href="index.html" id="home">Home</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                    <a class="nav-link shopCategory" href="shop.html" id="shop" data-bs-target="shop">Shop</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                    <a class="nav-link" href="about.html">About US</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                    <a class="nav-link" href="index.html#contact us"> Contact US</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a type="button" class="position-relative nav-link navCard rounded-2" href="#">
+                            <i class="fa-solid fa-cart-shopping my-0 fs-3"></i>
+                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                <span class="cardsNumber">0</span>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="position-relative nav-link  navCard rounded-2" href="wishlist.html" >
+                            <i class="fa-solid fa-heart fs-3  text-light"></i>
+                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                <span class="favouriteNum">0</span>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="nav-item ms-2 me-0 ">
+                        <a href="login.html" class="btn btn-success py-1 visually-hidden">LOGIN</a>
+                        <a  class="btn"><i class="loginButton fa-solid fa-user fs-3 text-light"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end navBar -->   
+    <section class="container ">
+        <div class="row mt-1 position-relative g-0">
+            <a class="btn btn-danger removeAll position-absolute p-sm-0 mt-3 me-0">Remove All</a>
+            <div class="cartItems row col-lg-8 col-sm-12 mx-sm-2 ps-0 pe-5 rounded-2 my-5 ms-2 px-5">
+
+            </div>
+            <div class="cartSummary col-lg-4  p-3 my-0  bg-dark shadow me-0 ms-5">
+                <div class="cartSummary__title">
+                    <h4 class="text-dark text-capitalize text-center fw-bolder">Summary</h4>
+                </div>
+                <hr class="bg-dark w-75 m-auto my-4">
+                <div class="cartSummary__totalPrice d-flex justify-content-around">
+                    <h4 class="text-uppercase text-dark py-2 fw-bold">total  <sub class="fs-6 text-lowercase">(excluding delivery)</sub></h4>
+                    <span class="text-dark fs-4 py-1 cartSummary__totalPrice__value fw-bold"></span>
+                </div>
+                <div class="m-auto my-3 btn cartSummary__nextStep bg-primary p-2 w-50 rounded-2 d-flex align-items-center justify-content-center gap-3">
+                    <i class="fa-solid fa-lock text-light p-0 m-0"></i>
+                    <h4 class="text-dark fs-6 fw-bolder m-0 btn cartSummary__nextStep__btn" data-bs-toggle="modal" data-bs-target="#exampleModal">See Next Step</h4>
+                </div>
+                <hr class="bg-dark w-75 m-auto my-4">
+                <div class="cartSummary__promoCode text-light m-auto text-center px-4">
+                    <h4 class="text-start my-4 text-dark">Add Promotion Code</h4>
+                    <input type="text" class="d-block bg-dark text-light  my-4 p-2 w-100 m-auto rounded-2 fs-5 promoCode">
+                    <a class="btn btn-success w-100 fs-5 fw-bold my-auto applyButton">APPLY</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="giftVideo">
+        
+    </div>
+    <div class="filterResponsive position-fixed">
+        <i class="fa-solid fa-circle-arrow-left fs-2 btn"></i>
+    </div>
+
+    <div class="userData py-4 px-5  d-flex flex-column gap-3 justify-content-between align-items-start">
+        
+    </div>
+    <!-- apply promo effect -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <!-- bootstrap js file -->
+    <script src="assets/scripts/bootstrap.bundle.min.js"></script>
+    <!-- personal js file -->
+    <script src="assets/scripts/cart.js"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

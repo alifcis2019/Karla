@@ -1,0 +1,86 @@
+:root {
+    --main-color:rgb(21,149,224);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* height: 1000vh; */
+    font-family: 'Karla', sans-serif;
+}
+
+/* edit navbar */
+
+.nav-link {
+    color: white !important;
+    text-transform: uppercase;
+    font-size: medium;
+    border-radius: 10px;
+    padding: 10px !important;
+    /* font-weight: bold; */
+}
+
+.navbar-toggler-icon {
+    color: white !important;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.90);
+}
+
+.nav-link:hover {
+    background-color: var(--main-color);
+}
+
+.nav__links {
+    flex-grow: 0 !important;
+}
+
+.nav-item {
+    border-radius: 10%;
+}
+
+/* end navbar */
+
+form {
+    background-color: rgba(0, 0, 0, 0.874) !important;
+}
+
+.loginForm {
+    /* overflow: hidden; */
+    height: 400PX;
+    width: 900px;
+}
+
+.image-content h3{
+    position: absolute;
+    color: #020e20;
+    top: 60%;
+    right: 0%;
+    text-align: center;
+    line-height: 1.6;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+}
+.sign-upicons i {
+    font-size: 22px;
+}
+
+.sign-upicons i:hover {
+    cursor: pointer;
+    color: var(--main-color);
+}
+
+@media screen and (max-width: 768px) {
+    .loginImage{
+        display: none;
+    }
+
+    .loginForm {
+        width: fit-content;
+    }
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Now</title>
+    <!-- GOOGLE Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500&family=Open+Sans:wght@300;400;500;700;800&family=Raleway:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <!-- sweet alert -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.32/dist/sweetalert2.min.css">
+    <!-- icon bar -->
+    <link rel="icon" href="assets/images/index/icon.png">
+    <!-- bootstrap styles -->
+    <link rel="stylesheet" href="assets/styles/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/styles/all.min.css">
+    <!-- persolnal stylsheet -->
+    <link rel="stylesheet" href="assets/styles/shop.css">   
+</head>
+<body class="position-relative">
+    <!-- start navBar -->
+    <nav class="navbar sticky-top end-0  py-0  navbar-expand-lg navbar-light text-white" id="home">
+        <div class="container text-white d-flex justify-content-between align-items-center">
+            <a class="navbar-brand text-white fw-bolder fs-1 fst-italic" href="index.html">KARLA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars text-light"></i>
+            </button>
+            <div class="collapse nav__links navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 flex-lg-row d-sm-flex align-items-center flex-column gap-lg-4 gap-sm-1">
+                    <li class="nav-item mx-1">
+                    <a class="nav-link active" aria-current="page" href="index.html" id="home">Home</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                    <a class="nav-link shopCategory" href="#" id="shop" data-bs-target="shop">Shop</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                    <a class="nav-link" href="about.html">About US</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                    <a class="nav-link" href="index.html#contact us"> Contact US</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <i class="nav-link fa-solid fa-magnifying-glass btn text-white my-0"></i>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a type="button" class="position-relative nav-link navCard rounded-2" href="cart.html">
+                            <i class="fa-solid fa-cart-shopping my-0 fs-3"></i>
+                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                <span class="cardsNumber">0</span>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="position-relative nav-link my-3 navCard rounded-2" href="wishlist.html" >
+                            <i class="fa-solid fa-heart fs-3  text-light"></i>
+                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                <span class="favouriteNum">0</span>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="nav-item ms-2 me-0 ">
+                        <a href="login.html" class="btn btn-success py-1 visually-hidden">LOGIN</a>
+                        <a  class="btn"><i class="loginButton fa-solid fa-user fs-3 text-light"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end navbar -->
+    <div id="preload">
+    </div>
+    <!-- end navBar -->
+    <section class="mt-1  mt-sm-0">
+        <div class="container-fluid ">
+            <div class="menProducts row  g-1 position-relativ ">
+                <div class="menProducts__block col-md-9  py-lg-0 py-sm-5 mt-sm-0   px-5">
+                    <div class="menProducts__block__item mt-sm-2">
+                        <h4 class="text-dark text-center bg-light p-2 rounded-2 menProducts__block__item__title w-25 m-auto border text-uppercase mt-0"></h4>
+                        <div class="menProducts__block__item__cards row g-5 g-sm-2 justify-content-sm-around  mt-lg-4 mt-sm-0  p-sm-4 rounded-2">
+                        </div>
+                    </div>  
+                </div>
+                <div class="menProducts__filter bg-light shadow col-md-3 d-flex flex-column align-items-start justify-content-start">
+                    <div class="w-100 text-center mx-auto">
+                        <h4 class="text-center my-0  text-uppercase fw-bold text-primary">Filter</h4>
+                    </div>
+                    <div class="menProducts__filter__card mt-0  border-0">
+                        <div class="menProducts__filter__bySize text-sark  mt-0 mx-0 px-0 border-bottom py-4">
+                            <h5 class="text-center p-2 border text-uppercase my-2 text-dark fw-bold">Select Size</h5>
+                            <input type="checkbox" class="my-3 checkboxSmall checkbox" id="s" value="s">
+                            <label for="s" class="fs-5">Small</label><br>
+                            <input type="checkbox" class="my-3 checkboxMedium checkbox" id="m" value="m">
+                            <label for="m" class="fs-5">Medium</label><br>
+                            <input type="checkbox" class="my-3 checkboxLarge checkbox" id="l" value="l">
+                            <label for="l" class="fs-5">Large</label><br>
+                        </div>
+                        <div class="menProducts__filter__byPrice  mt-1 mx-0 px-0">
+                            <h5 class="text-center p-2 border text-uppercase my-2 text-dark fw-bold">Select Price</h5>
+                            <div class="d-flex align-items-center gap-3 w-75 mx-auto">
+                                <span class="minimumPrice w-50 p-2 text-center bg-primary text-light rounded-2">0</span>
+                                <input type="range" class="filterPrice w-100" min="0" max="400" step="50" id="customRange" value="400">
+                                <span class="maximumPrice p-2 w-50 text-center bg-primary text-light rounded-2">400</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>  
+    
+    <!-- responsive filter tab -->
+    <div class="filterResponsive position-absolute">
+        <i class="fa-solid fa-circle-arrow-left fs-2 btn"></i>
+    </div>
+
+    <div class="searchBar d-flex rounded-2 align-items-center justify-content-between">
+        <i class="fa-solid fa-magnifying-glass fs-2 fw-bold btn text-light"></i>
+        <div class="searchBarBlock rounded-2">
+            <input type="text" class="w-100 rounded-2 fs-4 h-100 p-4" placeholder="Write Your Search">
+        </div>
+    </div>
+
+    <div class="userData py-4 px-5  d-flex flex-column gap-3 justify-content-between align-items-start">
+        
+    </div>
+    
+
+    <!-- start footer -->
+    <!-- end footer -->
+    <!-- bootstrap js file -->
+    <script src="assets/scripts/bootstrap.bundle.min.js"></script>
+    <!-- personal js file -->
+    <script src="assets/scripts/shop.js"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
