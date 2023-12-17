@@ -12,7 +12,7 @@ let productsCard = document.querySelector(".menProducts__block__item__cards");
 let productsNum = document.querySelector(".menProducts__block__item__title");
 let cardsNumber = document.querySelector(".cardsNumber")
 async function getAllProducts(){
-    let res = await fetch('http://localhost:3000/products')
+    let res = await fetch(`https://karla-data.onrender.com/products`)
     let products = await res.json();
     showProducts(products);
 }
@@ -173,49 +173,49 @@ function showProducts(data){
 let small=false , large=false , meduim=false ;
 async function getFilterProductsBySize() {
     if(small && large && meduim){
-        let res = await fetch('http://localhost:3000/products')
+        let res = await fetch(`https://karla-data.onrender.com/products`)
         let products = await res.json();
         showProducts(products);
     }
     else if (small && large && meduim==false)
     {
-        let res = await fetch('http://localhost:3000/products?size=s&&size=l')
+        let res = await fetch(`https://karla-data.onrender.com/products?size=s&&size=l`)
         let products = await res.json();
         showProducts(products);
     }
     else if (small && meduim && large==false)
     {
-        let res = await fetch('http://localhost:3000/products?size=s&&size=m')
+        let res = await fetch(`https://karla-data.onrender.com/products?size=s&&size=m`)
         let products = await res.json();
         showProducts(products);
     }
     else if (small==false&&large&&meduim)
     {
-        let res = await fetch('http://localhost:3000/products?size=m&&size=l')
+        let res = await fetch(`https://karla-data.onrender.com/products?size=m&&size=l`)
         let products = await res.json();
         showProducts(products);
     }
     else if (small)
     {
-        let res = await fetch('http://localhost:3000/products?size=s')
+        let res = await fetch(`https://karla-data.onrender.com/products?size=s`)
         let products = await res.json();
         showProducts(products);
     }
     else if (meduim)
     {
-        let res = await fetch('http://localhost:3000/products?size=m')
+        let res = await fetch(`https://karla-data.onrender.com/products?size=m`)
         let products = await res.json();
         showProducts(products);
     }
     else if (large)
     {
-        let res = await fetch('http://localhost:3000/products?size=l')
+        let res = await fetch(`https://karla-data.onrender.com/products?size=l`)
         let products = await res.json();
         showProducts(products);
     }
     else 
     {
-        let res = await fetch('http://localhost:3000/products')
+        let res = await fetch(`https://karla-data.onrender.com/products`)
         let products = await res.json();
         showProducts(products);
     }
@@ -417,7 +417,7 @@ searchBarIcon.addEventListener('click',()=>{
 })
 
 async function searchfunction() {
-    let res = await fetch(`http://localhost:3000/products?title=${searchBarBlock.value}`)
+    let res = await fetch(`https://karla-data.onrender.com/products?title=${searchBarBlock.value}`)
     let products = await res.json();
     showProducts(products);
 }
@@ -460,7 +460,7 @@ function showUserData(){
 
 async function profilePage(){
     let mail = localStorage.getItem("mail")
-    let res = await fetch(`http://localhost:3000/users/?mail=${mail}`)
+    let res = await fetch(`https://karla-data.onrender.com/users/?mail=${mail}`)
     let products = await res.json()
     checkAdmin(products);
 }
@@ -474,7 +474,7 @@ function checkAdmin(products){
 
 async function userInfo(){
     let mail = localStorage.getItem("mail")
-    let res = await fetch(`http://localhost:3000/users/?mail=${mail}`)
+    let res = await fetch(`https://karla-data.onrender.com/users/?mail=${mail}`)
     let products = await res.json()
     userData.innerHTML = `
     <h3 class="text-light text-uppercase fw-bold text-center userTitle align-self-center">${products[0].name}</h3>

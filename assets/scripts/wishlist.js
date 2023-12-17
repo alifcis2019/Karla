@@ -18,7 +18,7 @@ cartNum.innerHTML = 0
 
 let whishlist =document.querySelector(".whishlist")
 async function getFavourites () {
-    let res =await fetch(`http://localhost:3000/products`)
+    let res =await fetch(`https://karla-data.onrender.com/products`)
     let products = await res.json()
     showData(products)
 }
@@ -141,7 +141,7 @@ function showUserData(){
 
 async function profilePage(){
     let mail = localStorage.getItem("mail")
-    let res = await fetch(`http://localhost:3000/users/?mail=${mail}`)
+    let res = await fetch(`https://karla-data.onrender.com/users/?mail=${mail}`)
     let products = await res.json()
     checkAdmin(products);
 }
@@ -155,7 +155,7 @@ function checkAdmin(products){
 
 async function userInfo(){
     let mail = localStorage.getItem("mail")
-    let res = await fetch(`http://localhost:3000/users/?mail=${mail}`)
+    let res = await fetch(`https://karla-data.onrender.com/users/?mail=${mail}`)
     let products = await res.json()
     userData.innerHTML = `
     <h3 class="text-light text-uppercase fw-bold text-center userTitle align-self-center">${products[0].name}</h3>

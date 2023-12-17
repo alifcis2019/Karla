@@ -851,6 +851,13 @@
       "mail": "eraasoft419@gmail.com",
       "password": "eraasoft@2023",
       "type": "user"
+    },
+    {
+      "id": 3,
+      "name": "hamza",
+      "mail": "hamza@2023.com",
+      "password": "hamza@2023",
+      "type": "user"
     }
   ]
 }

@@ -61,7 +61,7 @@ let cartItems = document.querySelector(".cartItems")
 getproducts()
 
 async function getproducts() {
-    let res = await fetch('http://localhost:3000/products')
+    let res = await fetch(`https://karla-data.onrender.com/products`)
     let products = await res.json();
     getIdsFromLocalstorage(products);
 }
@@ -218,7 +218,7 @@ function sale(){
 let removeAll = document.querySelector(".removeAll")
 removeAll.addEventListener('click',async()=> {
     localStorage.setItem("card",0)
-    let res = await fetch('http://localhost:3000/products')
+    let res = await fetch(`https://karla-data.onrender.com/products`)
     let products = await res.json();
     for(let i =1 ; i <= [...products].length ;i++)
         localStorage.removeItem(i)
@@ -354,7 +354,7 @@ function showUserData(){
 
 async function profilePage(){
     let mail = localStorage.getItem("mail")
-    let res = await fetch(`http://localhost:3000/users/?mail=${mail}`)
+    let res = await fetch(`https://karla-data.onrender.com/users/?mail=${mail}`)
     let products = await res.json()
     checkAdmin(products);
 }
@@ -368,7 +368,7 @@ function checkAdmin(products){
 
 async function userInfo(){
     let mail = localStorage.getItem("mail")
-    let res = await fetch(`http://localhost:3000/users/?mail=${mail}`)
+    let res = await fetch(`https://karla-data.onrender.com/users/?mail=${mail}`)
     let products = await res.json()
     userData.innerHTML = `
     <h3 class="text-light text-uppercase fw-bold text-center userTitle align-self-center">${products[0].name}</h3>

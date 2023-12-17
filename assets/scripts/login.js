@@ -20,7 +20,7 @@ const mail = document.querySelector("#inputEmail4")
 const password = document.querySelector("#inputPassword4")
 const signIn=document.querySelector(".signIn")
 signIn.addEventListener('click',async()=>{
-    let res = await fetch('http://localhost:3000/users')
+    let res = await fetch(`https://karla-data.onrender.com/users`)
     let products = await res.json()
     console.log(mail.value);
     for(let i =0 ; i < products.length ; i++)

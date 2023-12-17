@@ -56,7 +56,7 @@ function asignLocation(){
 }
 
 async function checkMailAndName(name,mail,password) {
-    let res = await fetch(`http://localhost:3000/users`)
+    let res = await fetch(`https://karla-data.onrender.com/users`)
     let products = await res.json();
     let chk = true
 
@@ -68,7 +68,7 @@ async function checkMailAndName(name,mail,password) {
             }
     if( chk == true)
         {    
-            fetch('http://localhost:3000/users', {
+            fetch('https://karla-data.onrender.com/users', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
